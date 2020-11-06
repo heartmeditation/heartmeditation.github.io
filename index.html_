@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width">
+    <title>Amazing HTML5 Audio Player, powered by http://amazingaudioplayer.com</title>
+    
+    <!-- Insert to your webpage before the </head> -->
+    <script src="audioplayerengine/jquery.js"></script>
+    <script src="audioplayerengine/amazingaudioplayer.js"></script>
+    <link rel="stylesheet" type="text/css" href="audioplayerengine/initaudioplayer-1.css">
+    <script src="audioplayerengine/initaudioplayer-1.js"></script>
+    <!-- End of head section HTML codes -->
+    
+</head>
+
+<meta name="theme-color" content="#ff2d55">
+<link rel="manifest" href="manifest.json">
+<script src="sw-connect.js"></script>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-640x1136.png">
+<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-750x1334.png">
+<link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="assets/images/apple-launch-1242x2208.png">
+<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="assets/images/apple-launch-1125x2436.png">
+<link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-1536x2048.png">
+<link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-1668x2224.png">
+<link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-2048x2732.png">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="">
+<link rel="apple-touch-icon" href="apple-touch-icon.png"></head>
+
+<body>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall"></script>
+
+<div style="margin:12px auto;">
+    
+    <!-- Insert to your webpage where you want to display the audio player -->
+    <div id="amazingaudioplayer-1" style="display:block;position:relative;width:100%;height:300px;margin:0px auto 0px;">
+        <ul class="amazingaudioplayer-audios" style="display:none;">
+            <li data-artist="" data-title="Forgiveness Meditation :-)" data-album="" data-info="" data-image="" data-duration="1410">
+                <div class="amazingaudioplayer-source" data-src="audios/forgivenessmeditation-cutfinal.mp3" data-type="audio/mpeg" ></div>
+            </li>
+        </ul>
+        <div class="amazingaudioplayer-engine"><a href="http://amazingaudioplayer.com" title="html5 mp3 player">mp3 player for website</a></div>
+    </div>
+    <!-- End of body section HTML codes -->
+
+</div>
+</body>
+</html>
